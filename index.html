@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>中文考试成绩在线验证结果查询</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #fff; margin: 0; padding: 10px; text-align: center; }
-        .container { background: white; max-width: 950px; margin: auto; padding: 0px; border: 1px solid #efefef; }
-        h2 { color: #333; margin-bottom: 2px; font-size: 20px; font-weight: normal; margin-top: 20px; }
-        p.subtitle { color: #333; margin-top: 0; margin-bottom: 25px; font-size: 13px; }
+        body { font-family: 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif; background-color: #fff; margin: 0; padding: 0; text-align: center; color: #333; }
+        .container { background: white; max-width: 900px; margin: 20px auto; padding: 15px; border: 1px solid #efefef; }
+        h2 { font-size: 18px; font-weight: normal; margin-top: 20px; margin-bottom: 5px; }
+        p.subtitle { margin-top: 0; margin-bottom: 30px; font-size: 12px; }
         
-        table { width: 100%; border-collapse: collapse; margin-top: 0px; text-align: left; table-layout: fixed; }
-        th, td { border: 1px solid #e4e4e4; padding: 8px 12px; font-size: 12px; color: #333; word-wrap: break-word; }
-        th { background-color: #fff; font-weight: normal; color: #666; width: 25%; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 0px; table-layout: fixed; border: 1px solid #e4e4e4; }
+        th, td { border: 1px solid #e4e4e4; padding: 6px 10px; font-size: 11px; text-align: left; height: 25px; vertical-align: middle; }
+        th { background-color: #fff; font-weight: normal; color: #666; width: 180px; }
         
-        .section-header { padding: 8px 12px; font-size: 12px; color: #666; text-align: left; border: 1px solid #e4e4e4; background-color: #fff; }
+        .info-label { background-color: #fff; font-size: 11px; color: #666; padding: 10px 0 5px 5px; text-align: left; border: none; }
         .photo-cell { text-align: center; width: 160px; vertical-align: middle; padding: 5px; }
-        .photo-cell img { width: 145px; height: auto; border: 1px solid #eee; }
+        .photo-cell img { width: 145px; height: auto; display: block; margin: auto; border: 1px solid #eee; }
         
-        .score-header { background-color: #f9f9f9; text-align: center; font-weight: normal; }
-        .score-row { text-align: center; background-color: #fff; height: 40px; }
-        .footer-text { font-size: 10px; color: #333; margin-top: 15px; margin-bottom: 20px; }
+        .score-header td { background-color: #f9f9f9; text-align: center; color: #666; font-weight: normal; height: 30px; }
+        .score-row td { text-align: center; background-color: #fff; height: 35px; }
+        .footer-text { font-size: 10px; color: #333; margin-top: 15px; padding-bottom: 20px; }
     </style>
 </head>
 <body>
@@ -29,11 +29,11 @@
     <h2>中文考试成绩在线验证结果查询</h2>
     <p class="subtitle">汉考国际教育科技（北京）有限公司 (CTI)</p>
 
-    <div class="section-header" style="border-bottom: none;">Information of test taker</div>
+    <div class="info-label">Information of test taker</div>
     <table>
         <tr>
             <th>Name on Certificate</th>
-            <td style="width: 45%;">KUMAR RAMBABU</td>
+            <td>KUMAR RAMBABU</td>
             <td rowspan="7" class="photo-cell">
                 <img src="1000104967.jpg" alt="Candidate Photo">
             </td>
@@ -41,15 +41,15 @@
         <tr><th>Chinese Name</th><td></td></tr>
         <tr><th>Nationality</th><td>印度</td></tr>
         <tr><th>Gender</th><td>男</td></tr>
-        <tr style="height: 10px; border: none;"><td colspan="2" style="border: none; padding: 2px; font-size: 10px; color: #999;">考试信息</td></tr>
+        <tr><td colspan="2" class="info-label" style="height:20px; border-bottom:none;">考试信息</td></tr>
         <tr><th>考点名称</th><td>新疆师范大学 (网考)</td></tr>
         <tr><th>Ticket No.</th><td>H42503899610100005 H82503899610100005</td></tr>
-        <tr><th>证书编号</th><td>H42504028729</td><td style="border-top: none;"></td></tr>
-        <tr><th>Test Type</th><td>HSK四级</td><td style="border-top: none;"></td></tr>
-        <tr><th>Test Time</th><td>Apr 12, 2025</td><td style="border-top: none;"></td></tr>
+        <tr><th>证书编号</th><td>H42504028729</td><td style="border-top:none; border-left:none; border-right:none;"></td></tr>
+        <tr><th>Test Type</th><td>HSK四级</td><td style="border:none;"></td></tr>
+        <tr><th>Test Time</th><td>Apr 12, 2025</td><td style="border:none;"></td></tr>
     </table>
 
-    <div class="section-header" style="margin-top: 20px; border-bottom: none;">HSK四级(Apr 12, 2025)中文水平考试</div>
+    <div class="info-label" style="margin-top:20px;">HSK四级(Apr 12, 2025)中文水平考试</div>
     <table>
         <tr class="score-header">
             <td>听力</td>
@@ -67,7 +67,7 @@
         </tr>
     </table>
 
-    <div class="section-header" style="margin-top: 20px; border-bottom: none;">HSKK (中级) (Apr 12, 2025)中文水平考试</div>
+    <div class="info-label" style="margin-top:20px;">HSKK (中级) (Apr 12, 2025)中文水平考试</div>
     <table>
         <tr class="score-header">
             <td style="width: 25%;">口试</td>
