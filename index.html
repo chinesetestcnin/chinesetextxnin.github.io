@@ -1,8 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta http-equiv="refresh" content="0; url=https://admin.chinesetest.cn">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中文考试成绩在线验证结果查询</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f7f7f7; margin: 0; padding: 20px; text-align: center; }
+        .container { background: white; max-width: 850px; margin: auto; padding: 20px; border: 1px solid #ddd; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h2 { color: #333; margin-bottom: 5px; font-size: 22px; }
+        p.subtitle { color: #666; margin-top: 0; margin-bottom: 25px; font-size: 14px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; text-align: left; font-size: 14px; }
+        th, td { border: 1px solid #ddd; padding: 10px; }
+        th { background-color: #f9f9f9; width: 25%; font-weight: normal; color: #555; }
+        .section-header { background-color: #f2f2f2; font-weight: bold; text-align: center; color: #333; }
+        .photo-cell { text-align: center; width: 150px; vertical-align: middle; }
+        .photo-cell img { width: 120px; height: auto; border: 1px solid #ccc; padding: 2px; }
+        .score-row { text-align: center; background-color: #fff; }
+        .total-score { font-weight: bold; background-color: #fafafa; color: #000; }
+    </style>
 </head>
 <body>
+
+<div class="container">
+    <h2>中文考试成绩在线验证结果查询</h2>
+    <p class="subtitle">汉考国际教育科技（北京）有限公司 (CTI)</p>
+
+    <table>
+        <tr class="section-header"><td colspan="3">Information of test taker</td></tr>
+        <tr>
+            <th>Name on Certificate</th>
+            <td>KUMAR RAMBABU</td>
+            <td rowspan="6" class="photo-cell">
+                <img src="photo.jpg" alt="Candidate Photo">
+            </td>
+        </tr>
+        <tr><th>Chinese Name</th><td></td></tr>
+        <tr><th>Nationality</th><td>印度</td></tr>
+        <tr><th>Gender</th><td>男</td></tr>
+        <tr><th>Ticket No.</th><td>H42503899610100005</td></tr>
+        <tr><th>Test Type</th><td>HSK四级</td></tr>
+        <tr><th>Test Time</th><td colspan="2">Apr 12, 2025</td></tr>
+    </table>
+
+    <table>
+        <tr class="section-header"><td colspan="5">HSK (Apr 12, 2025) 中文水平考试</td></tr>
+        <tr style="text-align:center; background:#f9f9f9;">
+            <td>听力</td>
+            <td>阅读</td>
+            <td>写作</td>
+            <td>Total Score</td>
+            <td>Status</td>
+        </tr>
+        <tr class="score-row">
+            <td>62</td>
+            <td>58</td>
+            <td>60</td>
+            <td class="total-score">180</td>
+            <td class="total-score">合格</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr class="section-header"><td colspan="3">HSKK (中级) (Apr 12, 2025) 中文水平考试</td></tr>
+        <tr style="text-align:center; background:#f9f9f9;">
+            <td>口试</td>
+            <td>Total Score</td>
+            <td>Status</td>
+        </tr>
+        <tr class="score-row">
+            <td>65</td>
+            <td class="total-score">65</td>
+            <td class="total-score">合格</td>
+        </tr>
+    </table>
+</div>
+
 </body>
 </html>
